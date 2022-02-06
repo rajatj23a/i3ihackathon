@@ -1,0 +1,17 @@
+PartitionKey,RowKey,Timestamp,Alcoholic,Alcoholic@type,CurrentInsuranceStatus,CurrentInsuranceStatus@type,FullName,FullName@type,LocationGeo,LocationGeo@type,Region,Region@type,Smoker,Smoker@type,State,State@type,UniqueIdentifier,UniqueIdentifier@type
+China,5,2021-11-17T22:51:27.551Z,true,Edm.Boolean,Insured,Edm.String,Wan Jiping,Edm.String,23.5500468,Edm.Double,Asia Pacific,Edm.String,true,Edm.Boolean,Bijing,Edm.String,489-79-7601,Edm.String
+Egypt,16,2021-11-17T22:51:27.601Z,true,Edm.Boolean,Insured,Edm.String,Keket,Edm.String,117.173524,Edm.Double,Middle East,Edm.String,true,Edm.Boolean,Luxor,Edm.String,653-58-3389,Edm.String
+Finland,8,2021-11-17T22:51:27.582Z,true,Edm.Boolean,Insurance Renewal Pending ,Edm.String,Olivar,Edm.String,-61.1213871,Edm.Double,Europe,Edm.String,false,Edm.Boolean,Turku,Edm.String,211-56-9735,Edm.String
+Ghana,10,2021-11-17T22:51:27.559Z,false,Edm.Boolean,Insured,Edm.String,Sani Abubakar,Edm.String,139.8470483,Edm.Double,Africa,Edm.String,true,Edm.Boolean,Accra,Edm.String,586-52-4802,Edm.String
+Ghana,12,2021-11-17T22:51:27.560Z,false,Edm.Boolean,Insured,Edm.String,Maria Nyamai Wavinya,Edm.String,120.752481,Edm.Double,Africa,Edm.String,false,Edm.Boolean,Tema,Edm.String,663-95-4549,Edm.String
+India,3,2021-11-17T22:51:27.556Z,false,Edm.Boolean,Insured,Edm.String,Pritik Tyagi,Edm.String,16.2979279,Edm.Double,Asia Pacific,Edm.String,false,Edm.Boolean,Delhi,Edm.String,397-78-800-0234,Edm.String
+India,4,2021-11-17T22:51:27.556Z,true,Edm.Boolean,Insurance Renewal Pending ,Edm.String,Roshni Sharma,Edm.String,119.218978,Edm.Double,Asia Pacific,Edm.String,false,Edm.Boolean,Uttar Pradesh,Edm.String,127-54-830-6574,Edm.String
+Iran,13,2021-11-17T22:51:27.570Z,true,Edm.Boolean,Insurance Renewal Pending ,Edm.String,Abbas Mastan,Edm.String,18.3838669,Edm.Double,Middle East,Edm.String,true,Edm.Boolean,Tehran,Edm.String,672-52-5667,Edm.String
+Iran,14,2021-11-17T22:51:27.570Z,true,Edm.Boolean,Insured,Edm.String,Ebrahim Raisi,Edm.String,30.2867644,Edm.Double,Middle East,Edm.String,false,Edm.Boolean,Shiraz,Edm.String,356-32-0977,Edm.String
+Ireland,7,2021-11-17T22:51:27.551Z,true,Edm.Boolean,Insured,Edm.String,Hugh Murphy,Edm.String,109.116667,Edm.Double,Europe,Edm.String,true,Edm.Boolean,Galway,Edm.String,173-30-3055,Edm.String
+Kenya,11,2021-11-17T22:51:27.996Z,false,Edm.Boolean,Insurance Renewal Pending ,Edm.String,Aluna,Edm.String,117.001279,Edm.Double,Africa,Edm.String,true,Edm.Boolean,Nairobi,Edm.String,348-12-5898,Edm.String
+Nigeria,9,2021-11-17T22:51:27.575Z,false,Edm.Boolean,Insured,Edm.String,Obi Ghebo,Edm.String,118.481377,Edm.Double,Africa,Edm.String,true,Edm.Boolean,Logus,Edm.String,519-54-7483,Edm.String
+Sri Lanka,6,2021-11-17T22:51:27.556Z,true,Edm.Boolean,Insurance Renewal Pending ,Edm.String,Yohani De Silva,Edm.String,41.7631303,Edm.Double,Asia Pacific,Edm.String,false,Edm.Boolean,Colambo,Edm.String,153-36-6019,Edm.String
+United States of America,1,2021-11-17T22:51:27.367Z,false,Edm.Boolean,Insured,Edm.String,Emma Sofia,Edm.String,125.57278,Edm.Double,Americas,Edm.String,true,Edm.Boolean,Texas,Edm.String,240-79-3970,Edm.String
+United States of America,2,2021-11-17T22:51:27.367Z,true,Edm.Boolean,Insured,Edm.String,Olivia,Edm.String,127.1479532,Edm.Double,Americas,Edm.String,true,Edm.Boolean,Miami,Edm.String,566-82-0632,Edm.String
+Yemen,15,2021-11-17T22:51:27.561Z,true,Edm.Boolean,Insured,Edm.String,Abbud,Edm.String,6.7788461,Edm.Double,Middle East,Edm.String,true,Edm.Boolean,Aden,Edm.String,161-13-9907,Edm.String

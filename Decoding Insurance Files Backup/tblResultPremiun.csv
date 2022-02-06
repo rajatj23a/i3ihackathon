@@ -1,0 +1,5 @@
+PartitionKey,RowKey,Timestamp,Age,Age@type,FullName,FullName@type,HistoricalData,HistoricalData@type,Id,Id@type,UniqueIdentifier,UniqueIdentifier@type,Area,Area@type,Gender,Gender@type,SumInsured,SumInsured@type,RealTimePremium,RealTimePremium@type
+India,397-78-800-0212,2021-11-19T03:59:47.233Z,72,Edm.String,Kavita Tyagi,Edm.String,450.00 ,Edm.String,,,,,,,,,,,,
+India,53a264bc-bf00-4edd-a4a0-4c235d943528,2021-11-22T23:12:58.040Z,72,Edm.String,Kavita Tyagi,Edm.String,450.00 ,Edm.String,1,Edm.Int32,397-78-800-0212,Edm.String,Delhi,Edm.String,Female,Edm.String,10000,Edm.Double,100,Edm.Double
+India,783cf66e-83e2-4d6a-9292-88bfa4bae0ea,2021-11-22T22:59:41.045Z,72,Edm.String,Kavita Tyagi,Edm.String,450.00 ,Edm.String,1,Edm.Int32,397-78-800-0212,Edm.String,Delhi,Edm.String,Female,Edm.String,0,Edm.Double,0,Edm.Double
+India,b6c2bf0d-d22f-441e-b85f-330a7e13b193,2021-11-22T21:50:50.797Z,72,Edm.String,Kavita Tyagi,Edm.String,450.00 ,Edm.String,1,Edm.Int32,397-78-800-0212,Edm.String,Delhi,Edm.String,Female,Edm.String,,,,

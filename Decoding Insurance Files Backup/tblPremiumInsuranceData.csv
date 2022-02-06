@@ -1,0 +1,7 @@
+PartitionKey,RowKey,Timestamp,Data,Data@type,Key,Key@type,LessThanNormal,LessThanNormal@type,MeasurementUnit,MeasurementUnit@type,MoreThanNormal,MoreThanNormal@type,Type,Type@type
+India,1,2021-11-18T23:47:40.183Z,7 - 8 ,Edm.String,Sleep,Edm.String,"Heart disease,Irregular heartbeat,High blood pressure,Diabetes",Edm.String,Hours,Edm.String,"Depression,diabetes,Higher risk of heart disease",Edm.String,Range,Edm.String
+India,2,2021-11-18T23:47:40.183Z,60-100,Edm.String,Heart Rate,Edm.String,"Bradycardia -dizziness, weakness (Below 60 beats per min)",Edm.String,Beats Per Minute,Edm.String,Tachycardia -Shortness of breath. Lightheadedness,Edm.String,Range,Edm.String
+India,3,2021-11-18T23:47:40.183Z,37,Edm.String,Temperature,Edm.String,Hypothermia-body loses heat faster than it can produce heat,Edm.String,C,Edm.String,Fever (temperature above 38.1�C (100.6�F)),Edm.String,Single,Edm.String
+India,4,2021-11-18T23:47:40.184Z,60-90,Edm.String,BP-Lower,Edm.String,40/90mmHg or higher,Edm.String,mmHg,Edm.String,90/60mmHg or lower,Edm.String,Range,Edm.String
+India,5,2021-11-18T23:47:40.184Z,80-120,Edm.String,BP-Higher,Edm.String,40/90mmHg or higher,Edm.String,mmHg,Edm.String,90/60mmHg or lower,Edm.String,Range,Edm.String
+India,6,2021-11-18T23:47:40.184Z,96,Edm.String,Blood Oxygen,Edm.String,92% or less,Edm.String,Percentage,Edm.String,NA,Edm.String,Single,Edm.String

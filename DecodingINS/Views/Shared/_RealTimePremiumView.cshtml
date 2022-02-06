@@ -1,0 +1,55 @@
+﻿@model IEnumerable<DecodingINS.Models.RealTimePremiumData>
+<br />
+<div class="container">
+    <div style="border:1px solid black" class="row">
+        <div class="col-1">
+            <b>@Html.DisplayNameFor(model => model.Area)</b>
+        </div>
+        <div style="border-left:1px solid black" class="col-1">
+            <b> @Html.DisplayNameFor(model => model.Age)</b>
+        </div>
+        <div style="border-left:1px solid black" class="col-1">
+            <b>@Html.DisplayNameFor(model => model.Gender)</b>
+        </div>
+        <div style="border-left:1px solid black" class="col-2">
+            <b> @Html.DisplayNameFor(model => model.FullName)</b>
+        </div>
+        <div style="border-left:1px solid black" class="col-2">
+            <b>@Html.DisplayNameFor(model => model.SumInsured)</b>
+        </div>
+        <div style="border-left:1px solid black" class="col-2">
+            <b>@Html.DisplayNameFor(model => model.HistoricalData)</b>
+        </div>
+        <div style="border-left:1px solid black" class="col-3">
+            <b>@Html.DisplayNameFor(model => model.RealTimePremium)</b>
+        </div>
+    </div>
+    @foreach (var item in Model)
+    {
+        <div style="border-left: 1px solid black; border-right: 1px solid black; border-bottom: 1px solid black" class="row">
+            <div class="col-1">
+                @Html.DisplayFor(modelItem => item.Area)
+            </div>
+            <div style="border-left:1px solid black" class="col-1">
+                @Html.DisplayFor(modelItem => item.Age)
+            </div>
+            <div style="border-left:1px solid black" class="col-1">
+                @Html.DisplayFor(modelItem => item.Gender)
+            </div>
+            <div style="border-left:1px solid black" class="col-2">
+                @Html.DisplayFor(modelItem => item.FullName)
+            </div>
+            <div style="border-left:1px solid black" class="col-2">
+                @Html.DisplayFor(modelItem => item.SumInsured)
+            </div>
+            <div style="border-left:1px solid black" class="col-2">
+                @Html.DisplayFor(modelItem => item.HistoricalData)
+            </div>
+            <div style="border-left:1px solid black" class="col-3">
+                @Html.DisplayFor(modelItem => item.RealTimePremium)
+            </div>
+        </div>
+    }
+</div>
+
+<br />

@@ -1,0 +1,2 @@
+PartitionKey,RowKey,Timestamp,Id,Id@type,UniqueIdentifier,UniqueIdentifier@type,Area,Area@type,Age,Age@type,Gender,Gender@type,FullName,FullName@type,SumInsured,SumInsured@type,HistoricalData,HistoricalData@type,RealTimePremium,RealTimePremium@type
+India,fa175671-a476-4731-836d-9aec36c14b6a,2021-11-23T14:24:06.040Z,1,Edm.Int32,397-78-800-0212,Edm.String,Delhi,Edm.String,72,Edm.String,Female,Edm.String,Kavita Tyagi,Edm.String,"$1,346.76",Edm.String,$450.00 ,Edm.String,$100,Edm.String

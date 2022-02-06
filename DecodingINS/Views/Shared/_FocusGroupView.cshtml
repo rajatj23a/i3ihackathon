@@ -1,0 +1,47 @@
+﻿@model IEnumerable<DecodingINS.Models.FocusGroup>
+
+<div class="container">
+    <div style="border:1px solid black" class="row">
+        <div class="col-2">
+            <b>Focus Group</b>
+        </div>
+        <div style="border-left:1px solid black" class="col-2">
+            <b>Area</b>
+        </div>
+        <div style="border-left:1px solid black" class="col-2">
+            <b>Age Group</b>
+        </div>
+        <div style="border-left:1px solid black" class="col-2">
+            <b>Gender</b>
+        </div>
+        <div style="border-left:1px solid black" class="col-2">
+            <b>Income</b>
+        </div>
+        <div style="border-left:1px solid black" class="col-2">
+            <b>Status</b>
+        </div>
+    </div>
+    @foreach (var item in Model)
+    {
+        <div style="border-left: 1px solid black; border-right: 1px solid black; border-bottom: 1px solid black" class="row">
+            <div class="col-2">
+                @item.Id
+            </div>
+            <div style="border-left:1px solid black" class="col-2">
+                @item.Area
+            </div>
+            <div style="border-left:1px solid black" class="col-2">
+                @item.AgeGroup
+            </div>
+            <div style="border-left:1px solid black" class="col-2">
+                @item.Gender
+            </div>
+            <div style="border-left:1px solid black" class="col-2">
+                @item.Income
+            </div>
+            <div style="border-left:1px solid black" class="col-2">
+                @item.Status
+            </div>
+        </div>
+    }
+</div>

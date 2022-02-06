@@ -1,0 +1,27 @@
+PartitionKey,RowKey,Timestamp,DateOfBirth,DateOfBirth@type,FullName,FullName@type,Gender,Gender@type,LocationGeo,LocationGeo@type,Region,Region@type,State,State@type,UniqueIdentifier,UniqueIdentifier@type
+China,10,2021-11-17T22:55:00.688Z,05-12-1947,Edm.String,Kim Jiping,Edm.String,Male,Edm.String,23.5500468,Edm.Double,Asia Pacific,Edm.String,Beijing,Edm.String,489-79-7612,Edm.String
+China,11,2021-11-17T22:55:00.688Z,10/18/1998,Edm.String,Wan Jiping,Edm.String,Female,Edm.String,23.5500468,Edm.Double,Asia Pacific,Edm.String,Beijing,Edm.String,489-79-7601,Edm.String
+Egypt,26,2021-11-17T22:55:00.855Z,05-06-1965,Edm.String,Keket,Edm.String,Male,Edm.String,117.173524,Edm.Double,Middle East,Edm.String,Luxor,Edm.String,653-58-3389,Edm.String
+Finland,14,2021-11-17T22:55:00.873Z,11/16/1983,Edm.String,Olivar,Edm.String,Male,Edm.String,-61.1213871,Edm.Double,Europe,Edm.String,Turku,Edm.String,211-56-9735,Edm.String
+Finland,15,2021-11-17T22:55:00.873Z,10/23/1955,Edm.String,Leo Marin,Edm.String,Female,Edm.String,-61.1213871,Edm.Double,Europe,Edm.String,Turku,Edm.String,347-21-0954,Edm.String
+Ghana,17,2021-11-17T22:55:00.843Z,09-01-1998,Edm.String,Sani Abubakar,Edm.String,Male,Edm.String,139.8470483,Edm.Double,Africa,Edm.String,Accra,Edm.String,586-52-4802,Edm.String
+Ghana,18,2021-11-17T22:55:00.843Z,11-05-1991,Edm.String,Harry Kane,Edm.String,Male,Edm.String,139.8470483,Edm.Double,Africa,Edm.String,Accra,Edm.String,124-53-2562,Edm.String
+Ghana,20,2021-11-17T22:55:00.843Z,10-03-1971,Edm.String,Maria Nyamai Wavinya,Edm.String,Female,Edm.String,120.752481,Edm.Double,Africa,Edm.String,Tema,Edm.String,663-95-4549,Edm.String
+India,4,2021-11-17T22:55:00.674Z,1/18/1935,Edm.String,Pritik Tyagi,Edm.String,Male,Edm.String,16.2979279,Edm.Double,Asia Pacific,Edm.String,Delhi,Edm.String,397-78-800-0234,Edm.String
+India,5,2021-11-17T22:55:00.674Z,3/13/1949,Edm.String,Kavita Tyagi,Edm.String,Female,Edm.String,16.2979279,Edm.Double,Asia Pacific,Edm.String,Delhi,Edm.String,397-78-800-0212,Edm.String
+India,6,2021-11-17T22:55:00.674Z,4/23/1961,Edm.String,Roshni Sharma,Edm.String,Female,Edm.String,125.57278,Edm.Double,Asia Pacific,Edm.String,Uttar Pradesh,Edm.String,127-54-830-6574,Edm.String
+India,7,2021-11-17T22:55:00.674Z,06-01-1983,Edm.String,Rahul Sharma,Edm.String,Male,Edm.String,125.57278,Edm.Double,Asia Pacific,Edm.String,Uttar Pradesh,Edm.String,127-54-830-6512,Edm.String
+India,8,2021-11-17T22:55:00.674Z,10-01-1954,Edm.String,Deepak Chauhan,Edm.String,Male,Edm.String,125.57278,Edm.Double,Asia Pacific,Edm.String,Delhi,Edm.String,233-43-231-0945,Edm.String
+India,9,2021-11-17T22:55:00.674Z,04-08-1951,Edm.String,Ganesh Yella,Edm.String,Male,Edm.String,125.57278,Edm.Double,Asia Pacific,Edm.String,Maharashtra,Edm.String,145-54-123-5326,Edm.String
+Iran,21,2021-11-17T22:55:00.887Z,09-01-1998,Edm.String,Abbas Mastan,Edm.String,Male,Edm.String,18.3838669,Edm.Double,Middle East,Edm.String,Tehran,Edm.String,672-52-5667,Edm.String
+Iran,22,2021-11-17T22:55:00.888Z,11-05-1991,Edm.String,Syed Ahmed,Edm.String,Male,Edm.String,18.3838669,Edm.Double,Middle East,Edm.String,Tehran,Edm.String,145-21-5632,Edm.String
+Iran,23,2021-11-17T22:55:00.888Z,12/15/2000,Edm.String,Ebrahim Raisi,Edm.String,Male,Edm.String,30.2867644,Edm.Double,Middle East,Edm.String,Shiraz,Edm.String,356-32-0977,Edm.String
+Ireland,13,2021-11-17T22:55:00.845Z,12-03-1996,Edm.String,Hugh Murphy,Edm.String,Male,Edm.String,109.116667,Edm.Double,Europe,Edm.String,Galway,Edm.String,173-30-3055,Edm.String
+Kenya,19,2021-11-17T22:55:00.847Z,12/15/2000,Edm.String,Aluna,Edm.String,Male,Edm.String,117.001279,Edm.Double,Africa,Edm.String,Nairobi,Edm.String,348-12-5898,Edm.String
+Nigeria,16,2021-11-17T22:55:00.877Z,06-03-1970,Edm.String,Obi Ghebo,Edm.String,Female,Edm.String,118.481377,Edm.Double,Africa,Edm.String,Logus,Edm.String,519-54-7483,Edm.String
+Sri Lanka,12,2021-11-17T22:55:00.670Z,7/16/1978,Edm.String,Yohani De Silva,Edm.String,Female,Edm.String,41.7631303,Edm.Double,Asia Pacific,Edm.String,Colambo,Edm.String,153-36-6019,Edm.String
+United States of America,1,2021-11-17T22:55:00.672Z,12/28/1949,Edm.String,Emma Sofia,Edm.String,Female,Edm.String,125.57278,Edm.Double,Americas,Edm.String,Texas,Edm.String,240-79-3970,Edm.String
+United States of America,2,2021-11-17T22:55:00.672Z,4/19/1956,Edm.String,Meg Bryne,Edm.String,Male,Edm.String,125.57278,Edm.Double,Americas,Edm.String,Texas,Edm.String,124-65-2114,Edm.String
+United States of America,3,2021-11-17T22:55:00.672Z,9/19/1967,Edm.String,Olivia,Edm.String,Male,Edm.String,127.1479532,Edm.Double,Americas,Edm.String,Miami,Edm.String,566-82-0632,Edm.String
+Yemen,24,2021-11-17T22:55:00.869Z,10-03-1971,Edm.String,Abbud,Edm.String,Male,Edm.String,6.7788461,Edm.Double,Middle East,Edm.String,Aden,Edm.String,161-13-9907,Edm.String
+Yemen,25,2021-11-17T22:55:00.869Z,3/31/1940,Edm.String,Issa Abara,Edm.String,Male,Edm.String,6.7788461,Edm.Double,Middle East,Edm.String,Aden,Edm.String,145-32-1354,Edm.String

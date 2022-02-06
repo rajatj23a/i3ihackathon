@@ -1,0 +1,423 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+
+}
+
+<script type="text/javascript" src="~/assets/js/city_state2.js"></script>
+
+<section id="hero" class="d-flex align-items-center">
+    <style type="text/css">
+        .modal-dialog {
+            max-width: 800px !important;
+            margin: 1.75rem auto;
+        }
+    </style>
+    <div class="container-fluid" data-aos="fade-up">
+        <div class="row justify-content-center">
+            <div class="col-xl-5 col-lg-6 pt-3 pt-lg-0 order-2 order-lg-1 d-flex flex-column justify-content-center">
+                <h1>Decoding Insurance</h1>
+                <h2>A bridge to premier healthcare. Simplifying insurance.</h2>
+                <div><a href="#hero" style="text-decoration:none !important" class="btn-get-started scrollto">Let's Decode Insurance World</a></div>
+            </div>
+            <div class="col-xl-4 col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-in" data-aos-delay="150">
+                <img src=@Url.Content("~/assets/img/hero-img.png") class="img-fluid animated" alt="">
+            </div>
+        </div>
+    </div>
+
+</section>
+
+<main id="main">
+    <section id="origin" class="origin">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 order-1 order-lg-2" data-aos="zoom-in" data-aos-delay="150">
+                    <img src=@Url.Content("~/assets/img/about.jpg") class="img-fluid" alt="">
+                </div>
+                <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content" data-aos="fade-right">
+                    <h3>Origin of the Idea</h3>
+                    <p class="fst-italic" style="font-size:18px">
+                        Life insurance constitutes a significant segment of the world’s insurance business.
+                    </p>
+
+                    <ul style="font-weight:bold">
+                        <li><i class="bi bi-check-circle"></i>Every year, some 100 million people worldwide are forced into poverty by health care costs.</li>
+                        <li><i class="bi bi-check-circle"></i>In 2020, 8.6 percent of people, or 28.0 million, did not have health insurance at any point during the year.</li>
+                        <li><i class="bi bi-check-circle"></i>The insurance penetration rate of one of the developing countries recorded at just 3.76% of the GDP as “extremely low” against comparable developed countries for FY21. </li>
+                        <li><i class="bi bi-check-circle"></i>These low penetrations reveal the uninsured nature of large sections of the population in such developing countries and the presence of an insurance gap. </li>
+                        <li><i class="bi bi-check-circle"></i>Lacking health insurance-related knowledge and skills—or health insurance literacy—puts people at risk of choosing an insurance product that could fail to provide needed benefits or protect them financially. </li>
+                    </ul>
+                    <p class="fst-italic" style="font-size:18px">
+                        With the advent of the COVID-19 outbreak, the pandemic has had an outsized impact on life insurance returns in 2020 relative to the overall market.
+                        The current premium determination is based on pre-defined parameters such as historic data, age, gender, and region.  High and constant standard Premium is one of the main reasons people avoid health/life insurance.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about section-bg">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 order-1 order-lg-2" data-aos="zoom-in" data-aos-delay="150">
+                    <img src=@Url.Content("~/assets/img/about.jpg") class="img-fluid" alt="">
+                </div>
+                <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content" data-aos="fade-right">
+                    <h3>About the Idea</h3>
+                    <p class="fst-italic" style="font-size:18px">
+                        Health insurance is among the most complicated and costly products that consumers buy. Lacking health insurance realted knowledge and skills-or health literacy-puts people at risk of choosing an insurance product that could fail to provide needed benefits or protect them financially.
+                    </p>
+
+                    <ul style="font-weight:bold">
+                        <li><i class="bi bi-check-circle"></i>Our product aims to help the insurance companies to identify and gather the information related to socio-economic profiles of people in both rural and urban areas and help categorizing them according to their insurance needs while correlating to their various life and general insurance paramaters.</li>
+                        <li><i class="bi bi-check-circle"></i>Our proposed solution is divided into 3 main parts -<br />  1)Data Collection:Regional analysis pertaining to an area,<br /> 2)Data Extraction: The data collected is passed through a set of functions/action events to categorize it into 2 different groups & <br />3)Action: With the help of above extracted data and data groups, it will aid the insurance companies to identify such target groups/customers and help them bridge a gap by taking subsequent actions (such as Insurance awarness drives or determining Real-time premium)</li>
+                        <li><i class="bi bi-check-circle"></i>This idea will result in providing 2 solutions -<br />1)Finding the Focus Group &; <br />2)Determining the Real Time Premium </li>
+                        <li><i class="bi bi-check-circle"></i>Insurance literacy and Real-time premiums will not only help to balance the existing risk covers with better insurance products and services but also make a difference in expanding insurability by improving offers to individuals who would otherwise have been declined or substandard while better matching risk to premiums. </li>
+                       
+                    </ul>
+                    <p class="fst-italic" style="font-size:18px">
+                      
+                        Thus, assessing health insurance literacy can help identify what health insurance aspects pose the greatest problems for customers, which groups need more assistance to enroll and use benefits, and what topics and skills consumer-counselling efforts should focus on.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+
+            <div class="section-title">
+                <h2>Decoding the problem</h2>
+
+                <p>Check out our most realible solution</p>
+            </div>
+            <div class="container" style="width:60%;margin-top:2%">
+                <div class="modal fade" id="myModal1">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h3 class="modal-title">Getting Focus Group</h3>
+                            </div>
+                            <div class="modal-body">
+                                <form id="myForm1">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-3">
+                                                <b>Region</b><font style="color:red" >*</font>
+                                            </div>
+                                            <div class="col-9">
+                                                <select onchange="set_country1(this,country1,city_state1)" size="1" id="region1" name="region1" required="required">
+                                                    <option value="" selected="selected">Select Region</option>
+                                                    <script type="text/javascript">
+                                                        setRegions1(this);
+                                                    </script>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <br />
+                                        <div class="row">
+                                            <div class="col-3">
+                                                <b>Country</b><font style="color:red">*</font>
+                                            </div>
+                                            <div class="col-9">
+                                                <select id="country1" name="country1" size="1" disabled="disabled" required="required" onchange="set_city_state1(this,city_state1)"></select>
+                                            </div>
+                                        </div>
+                                        <br />
+                                        <div class="row">
+                                            <div class="col-3">
+                                                <b>State</b><font style="color:red">*</font>
+                                            </div>
+                                            <div class="col-9">
+                                                <select id="state1" name="city_state1" size="1" disabled="disabled" required="required" onchange="print_city_state1(country1,this)"></select>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="modal-footer">
+                                <a href="#" class="btn btn-default" data-dismiss="modal">Cancel</a>
+                                <input type="button" value="Submit" class="btn btn-primary" id="btnSubmitFocusGroup" />
+                            </div>
+                            <div style="text-align:center;display:none" id="loaderDiv">
+                                <img src="~/assets/img/load.gif" width="300" />
+                            </div>
+                            <div style="text-align:center;display:none" id="nodata1">
+                                <img src="~/assets/img/data.png" width="200" />
+                            </div>
+                            <div id="partialFocusGroup"></div>
+                            <div class="modal-body" id="focusgrp">
+                            </div>
+                            <br />
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="container" style="width:40%;margin-top:2%">
+                <div class="modal fade" id="myModal">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h3 class="modal-title">Real Time Premium</h3>
+                            </div>
+                            <div class="modal-body">
+                                <form id="myForm">
+                                    <div class="row">
+                                        <div class="col-3">
+                                            <b>Region</b><font style="color:red">*</font>
+                                        </div>
+                                        <div class="col-9">
+                                            <select onchange="set_country1(this,country2,city_state2)" size="1" id="region2" name="region2" required="required">
+                                                <option value="" selected="selected">Select Region</option>
+                                                <script type="text/javascript">
+                                                    setRegions1(this);
+                                                </script>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <br />
+                                    <div class="row">
+                                        <div class="col-3">
+                                            <b>Country</b><font style="color:red">*</font>
+                                        </div>
+                                        <div class="col-9">
+                                            <select id="country2" name="country2" size="1" disabled="disabled" required="required" onchange="set_city_state1(this,city_state2)"></select>
+                                        </div>
+
+                                    </div>
+                                    <br />
+                                    <div class="row">
+                                        <div class="col-3">
+                                            <b>State</b><font style="color:red">*</font>
+                                        </div>
+                                        <div class="col-9">
+                                            <select id="city_state2" name="city_state2" size="1" disabled="disabled" required="required" onchange="set_city_person(this,city_person2)"></select>
+                                        </div>
+                                    </div>
+                                    <br />
+                                    <div class="row">
+                                        <div class="col-3">
+                                            <b>Insured Applicant</b><font style="color:red">*</font>
+                                        </div>
+                                        <div class="col-9">
+                                            <select id="city_person2" name="city_person2" size="1" disabled="disabled" required="required" onchange="print_city_state(city_state2,this)"></select>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="modal-footer">
+                                <a href="#" class="btn btn-default" data-dismiss="modal">Cancel</a>
+                                <input type="button" value="Submit" class="btn btn-primary" id="btnSubmitRealTimePremium" />
+                            </div>
+                            <div style="text-align:center;display:none" id="loaderDiv1">
+                                <img src="~/assets/img/load.gif" width="300" />
+                            </div>
+                            <div style="text-align:center;display:none" id="nodata">
+                                <img src="~/assets/img/data.png" width="200" />
+                            </div>
+                            <div id="partialRealTimePremium"></div>
+                            <div class="modal-body" id="realtimep">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
+                <div class="col-lg-6 col-md-8 portfolio-item filter-app">
+                    <div class="portfolio-wrap">
+                        <img src="~/assets/img/Decoding self Care ! (2).png" class="img-fluid" height="257.1" alt="">
+                        <div class="portfolio-info">
+                            <h4><a href="#" class="btn btn-primary" data-toggle="modal" data-target="#myModal1">Focus Group</a></h4>
+                            <p>Getting the Focus Group in Area</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6 col-md-8 portfolio-item filter-card">
+                    <div class="portfolio-wrap">
+                        <img src="~/assets/img/realtime.jpg" class="img-fluid" alt="">
+                        <div class="portfolio-info">
+                            <h4><a href="#" class="btn btn-primary" data-toggle="modal" data-target="#myModal">Real Time Premium</a></h4>
+                            <p>Provide the Real Time Premium</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="services" class="services section-bg">
+        <div class="container">
+
+            <div class="section-title" data-aos="fade-up">
+                <h2>Benefits of Idea</h2>
+            </div>
+
+            <div class="row gy-4">
+
+                <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+                    <div class="icon-box iconbox-blue" data-aos="fade-up" data-aos-delay="100">
+                        <div class="icon"><i class="bx bx-dna"></i></div>
+                        <h4>This idea will help in forming an insurance inclusive and insurance literate society.</h4>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+                    <div class="icon-box iconbox-orange" data-aos="fade-up" data-aos-delay="200">
+                        <div class="icon"><i class="bx bx-dollar-circle"></i></div>
+
+                        <h4>Will eventually improve the decision-making power for better risk assessments and pricing.</h4>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+                    <div class="icon-box iconbox-pink" data-aos="fade-up" data-aos-delay="300">
+                        <div class="icon"><i class="bx bx-heart-circle"></i></div>
+                        <h4>
+                            Can bring the insurer and the insured together and help cultivate ongoing relationships.
+                        </h4>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+                    <div class="icon-box iconbox-yellow" data-aos="fade-up" data-aos-delay="400">
+                        <div class="icon"><i class="bx bxs-archive"></i></div>
+                        <h4>Insurers will obtain more complete and accurate data</h4>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+                    <div class="icon-box iconbox-red" data-aos="fade-up" data-aos-delay="400">
+                        <div class="icon"><i class="bx bx-group"></i></div>
+                        <h4>Customers will have an increased insurability.</h4>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+                    <div class="icon-box iconbox-teal" data-aos="fade-up" data-aos-delay="400">
+                        <div class="icon"><i class="bx bx-happy-alt"></i></div>
+                        <h4>
+                            This will be a good value-add situation for both the insurance company and the customer.
+                            This might also result in lower premium rates with effective score.
+                        </h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section id="technologyStack" class="technologyStack">
+        <div class="container" data-aos="fade-up">
+            <div class="section-title">
+                <h2>Technology Stack</h2>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 order-2 order-lg-1 d-flex flex-column align-items-lg-center">
+
+                    <div class="icon-box mt-5 mt-lg-0" data-aos="fade-up" data-aos-delay="100">
+                        <i class="bx bx-receipt"></i>
+                        <h4>.NET 6</h4>
+                        <h5>We have used .NET development framework to create our application.</h5>
+                    </div>
+                    <div class="icon-box mt-5" data-aos="fade-up" data-aos-delay="200">
+                        <i class="bx bx-cube-alt"></i>
+                        <h4>Azure functions</h4>
+                        <h5>We have used Azure functions to run event-triggered code in our application.</h5>
+                    </div>
+                    <div class="icon-box mt-5" data-aos="fade-up" data-aos-delay="300">
+                        <i class="bx bx-shield"></i>
+                        <h4>Azure Storage</h4>
+                        <h5>We have used Azure storage for storing the input data, files and accessing the azure tables for our application. </h5>
+                    </div>
+                    <div class="icon-box mt-5" data-aos="fade-up" data-aos-delay="400">
+                        <i class="bx bx-images"></i>
+                        <h4>Bootstrap Framework</h4>
+                        <h5>We have used Bootstrap as front-end our frameork for creating our uniquely designed website.</h5>
+                    </div>
+                    <div class="icon-box mt-5" data-aos="fade-up" data-aos-delay="400">
+                        <i class="bx bx-abacus"></i>
+                        <h4>IoT</h4>
+                        <h5>This solution required IoT to fetch the gadgets data for real time premium calculation.</h5>
+                    </div>
+                </div>
+                <div class="image col-lg-6 order-1 order-lg-2 " data-aos="zoom-in" data-aos-delay="100">
+                    <img src=@Url.Content("~/assets/img/features.svg") alt="" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="faq" class="faq section-bg">
+        <div class="container" data-aos="fade-up">
+            <div class="section-title">
+                <h2>Frequently Asked Questions</h2>
+            </div>
+            <div class="faq-list">
+                <ul>
+                    <li data-aos="fade-up" data-aos-delay="100">
+                        <i class="bx bx-help-circle icon-help"></i>
+                        <a data-bs-toggle="collapse" class="collapse show" data-bs-target="#faq-list-1">What makes to Idea great and help customers? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                        <div id="faq-list-1" class="collapse show" data-bs-parent=".faq-list" style="height:40px;">
+                            <p> Our idea can help us in forming an insurance inclusive and insurance literate society in unexplored area. The customers will get increased insurability with more appropriate premiums.</p>
+                        </div>
+                    </li>
+                    <li data-aos="fade-up" data-aos-delay="100">
+                        <i class="bx bx-help-circle icon-help"></i> 
+                        <a data-bs-toggle="collapse" class="collapse show" data-bs-target="#faq-list-2">Who we are targeting in our solution? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                        <div id="faq-list-2" class="collapse show" data-bs-parent=".faq-list" style="height:40px;">
+                            <p> We are targeting uninsured people of particular area for a country.</p>
+                        </div>
+                    </li>
+
+                    <li data-aos="fade-up" data-aos-delay="200">
+                        <i class="bx bx-help-circle icon-help"></i> 
+                        <a data-bs-toggle="collapse" data-bs-target="#faq-list-3" class="collapse show">What is the difference between insured and uninsured ?<i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                        <div id="faq-list-3" class="collapse show" data-bs-parent=".faq-list" style="height:40px;">
+                            <p>
+                                Insured - People who have coverage for the hospital services by a third party or an insurance company.
+                                <br />
+                                Uninsured - People who do not have coverage for the hospital services by a third party or an insurance company.
+                            </p>
+                        </div>
+                    </li>
+                    <li data-aos="fade-up" data-aos-delay="200">
+                        <i class="bx bx-help-circle icon-help"></i> 
+                        <a data-bs-toggle="collapse" data-bs-target="#faq-list-4" class="collapse show">Who is the participant in our solution?<i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                        <div id="faq-list-4" class="collapse show" data-bs-parent=".faq-list" style="height:40px;">
+                            <p>
+                                In India, Insurance Regulatory and Development Authority and in other countries other statutory body will be participants in our solution.
+                            </p>
+                        </div>
+                    </li>
+                    <li data-aos="fade-up" data-aos-delay="200">
+                        <i class="bx bx-help-circle icon-help"></i> 
+                        <a data-bs-toggle="collapse" data-bs-target="#faq-list-5" class="collapse show">How we are collecting data for our solution?<i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                        <div id="faq-list-5" class="collapse show" data-bs-parent=".faq-list" style="height:40px;">
+                            <p>
+                                Regulating authorities will help us with the Historical data and the other data required.
+                            </p>
+                        </div>
+                    </li>
+                    <li data-aos="fade-up" data-aos-delay="200">
+                        <i class="bx bx-help-circle icon-help"></i>
+                        <a data-bs-toggle="collapse" data-bs-target="#faq-list-6" class="collapse show"> How our solution will help Insurance Companies?<i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                        <div id="faq-list-6" class="collapse show" data-bs-parent=".faq-list" style="height:40px;">
+                            <p>
+                                This can bring the insurer and the insured together and help cultivate ongoing relationships. The insurers will obtain more complete and accurate data.
+                            </p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+    </section>
+
+</main>
+

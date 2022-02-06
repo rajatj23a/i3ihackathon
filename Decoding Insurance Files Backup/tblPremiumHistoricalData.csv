@@ -1,0 +1,33 @@
+PartitionKey,RowKey,Timestamp,Age,Age@type,InsuranceProvideCompanyName,InsuranceProvideCompanyName@type,PreDisease,PreDisease@type,PremiumAmount,PremiumAmount@type,Region,Region@type,State,State@type,SumInsuredAmount,SumInsuredAmount@type
+China,17,2021-11-18T23:22:49.571Z,36-45,Edm.String,China Life Insurance (Group) Company,Edm.String,Yes,Edm.String,274.00 ,Edm.String,Aisa,Edm.String,Beijing,Edm.String,"1,346.76 ",Edm.String
+China,18,2021-11-18T23:22:49.571Z,36-45,Edm.String,China Life Insurance (Group) Company,Edm.String,No,Edm.String,259.00 ,Edm.String,Aisa,Edm.String,Beijing,Edm.String,"1,346.76 ",Edm.String
+China,19,2021-11-18T23:22:49.571Z,46-55,Edm.String,China Life Insurance (Group) Company,Edm.String,Yes,Edm.String,310.00 ,Edm.String,Aisa,Edm.String,Beijing,Edm.String,"1,346.76 ",Edm.String
+China,20,2021-11-18T23:22:49.572Z,46-55,Edm.String,China Life Insurance (Group) Company,Edm.String,No,Edm.String,296.00 ,Edm.String,Aisa,Edm.String,Beijing,Edm.String,"1,346.76 ",Edm.String
+China,21,2021-11-18T23:22:49.572Z,55-65,Edm.String,China Life Insurance (Group) Company,Edm.String,Yes,Edm.String,325.00 ,Edm.String,Aisa,Edm.String,Beijing,Edm.String,"1,346.76 ",Edm.String
+China,22,2021-11-18T23:22:49.572Z,55-65,Edm.String,China Life Insurance (Group) Company,Edm.String,No,Edm.String,320.00 ,Edm.String,Aisa,Edm.String,Beijing,Edm.String,"1,346.76 ",Edm.String
+China,23,2021-11-18T23:22:49.572Z,65-80,Edm.String,China Life Insurance (Group) Company,Edm.String,Yes,Edm.String,390.00 ,Edm.String,Aisa,Edm.String,Beijing,Edm.String,"1,346.76 ",Edm.String
+China,24,2021-11-18T23:22:49.572Z,46-55,Edm.String,China Life Insurance (Group) Company,Edm.String,No,Edm.String,388.00 ,Edm.String,Aisa,Edm.String,Beijing,Edm.String,"1,346.76 ",Edm.String
+China,25,2021-11-18T23:22:49.572Z,36-45,Edm.String,China Life Insurance (Group) Company,Edm.String,Yes,Edm.String,424.00 ,Edm.String,Aisa,Edm.String,Beijing,Edm.String,"2,693.52 ",Edm.String
+China,26,2021-11-18T23:22:49.572Z,36-45,Edm.String,China Life Insurance (Group) Company,Edm.String,No,Edm.String,409.00 ,Edm.String,Aisa,Edm.String,Beijing,Edm.String,"2,693.52 ",Edm.String
+China,27,2021-11-18T23:22:49.572Z,46-55,Edm.String,China Life Insurance (Group) Company,Edm.String,Yes,Edm.String,460.00 ,Edm.String,Aisa,Edm.String,Beijing,Edm.String,"2,693.52 ",Edm.String
+China,28,2021-11-18T23:22:49.572Z,46-55,Edm.String,China Life Insurance (Group) Company,Edm.String,No,Edm.String,446.00 ,Edm.String,Aisa,Edm.String,Beijing,Edm.String,"2,693.52 ",Edm.String
+China,29,2021-11-18T23:22:49.572Z,55-65,Edm.String,China Life Insurance (Group) Company,Edm.String,Yes,Edm.String,475.00 ,Edm.String,Aisa,Edm.String,Beijing,Edm.String,"2,693.52 ",Edm.String
+China,30,2021-11-18T23:22:49.572Z,55-65,Edm.String,China Life Insurance (Group) Company,Edm.String,No,Edm.String,470.00 ,Edm.String,Aisa,Edm.String,Beijing,Edm.String,"2,693.52 ",Edm.String
+China,31,2021-11-18T23:22:49.572Z,65-80,Edm.String,China Life Insurance (Group) Company,Edm.String,Yes,Edm.String,540.00 ,Edm.String,Aisa,Edm.String,Beijing,Edm.String,"2,693.52 ",Edm.String
+China,32,2021-11-18T23:22:49.573Z,46-55,Edm.String,China Life Insurance (Group) Company,Edm.String,No,Edm.String,538.00 ,Edm.String,Aisa,Edm.String,Beijing,Edm.String,"2,693.52 ",Edm.String
+India,1,2021-11-18T23:22:49.578Z,36-45,Edm.String,Bajaj Allianz General Insurance Co. Ltd,Edm.String,Yes,Edm.String,270.00 ,Edm.String,Aisa,Edm.String,Delhi,Edm.String,"1,346.76 ",Edm.String
+India,10,2021-11-18T23:22:49.578Z,36-45,Edm.String,Bajaj Allianz General Insurance Co. Ltd,Edm.String,No,Edm.String,400.00 ,Edm.String,Aisa,Edm.String,Delhi,Edm.String,"2,693.52 ",Edm.String
+India,11,2021-11-18T23:22:49.578Z,46-55,Edm.String,Bajaj Allianz General Insurance Co. Ltd,Edm.String,Yes,Edm.String,450.00 ,Edm.String,Aisa,Edm.String,Delhi,Edm.String,"2,693.52 ",Edm.String
+India,12,2021-11-18T23:22:49.578Z,46-55,Edm.String,Bajaj Allianz General Insurance Co. Ltd,Edm.String,No,Edm.String,430.00 ,Edm.String,Aisa,Edm.String,Delhi,Edm.String,"2,693.52 ",Edm.String
+India,13,2021-11-18T23:22:49.579Z,55-65,Edm.String,Bajaj Allianz General Insurance Co. Ltd,Edm.String,Yes,Edm.String,460.00 ,Edm.String,Aisa,Edm.String,Delhi,Edm.String,"2,693.52 ",Edm.String
+India,14,2021-11-18T23:22:49.579Z,55-65,Edm.String,Bajaj Allianz General Insurance Co. Ltd,Edm.String,No,Edm.String,445.00 ,Edm.String,Aisa,Edm.String,Delhi,Edm.String,"2,693.52 ",Edm.String
+India,15,2021-11-18T23:22:49.579Z,65-80,Edm.String,Bajaj Allianz General Insurance Co. Ltd,Edm.String,Yes,Edm.String,450.00 ,Edm.String,Aisa,Edm.String,Delhi,Edm.String,"2,693.52 ",Edm.String
+India,16,2021-11-18T23:22:49.579Z,46-55,Edm.String,Bajaj Allianz General Insurance Co. Ltd,Edm.String,No,Edm.String,430.00 ,Edm.String,Aisa,Edm.String,Delhi,Edm.String,"2,693.52 ",Edm.String
+India,2,2021-11-18T23:22:49.578Z,36-45,Edm.String,Bajaj Allianz General Insurance Co. Ltd,Edm.String,No,Edm.String,250.00 ,Edm.String,Aisa,Edm.String,Delhi,Edm.String,"1,346.76 ",Edm.String
+India,3,2021-11-18T23:22:49.578Z,46-55,Edm.String,Bajaj Allianz General Insurance Co. Ltd,Edm.String,Yes,Edm.String,300.00 ,Edm.String,Aisa,Edm.String,Delhi,Edm.String,"1,346.76 ",Edm.String
+India,4,2021-11-18T23:22:49.578Z,46-55,Edm.String,Bajaj Allianz General Insurance Co. Ltd,Edm.String,No,Edm.String,280.00 ,Edm.String,Aisa,Edm.String,Delhi,Edm.String,"1,346.76 ",Edm.String
+India,5,2021-11-18T23:22:49.578Z,55-65,Edm.String,Bajaj Allianz General Insurance Co. Ltd,Edm.String,Yes,Edm.String,310.00 ,Edm.String,Aisa,Edm.String,Delhi,Edm.String,"1,346.76 ",Edm.String
+India,6,2021-11-18T23:22:49.578Z,55-65,Edm.String,Bajaj Allianz General Insurance Co. Ltd,Edm.String,No,Edm.String,295.00 ,Edm.String,Aisa,Edm.String,Delhi,Edm.String,"1,346.76 ",Edm.String
+India,7,2021-11-18T23:22:49.578Z,65-80,Edm.String,Bajaj Allianz General Insurance Co. Ltd,Edm.String,Yes,Edm.String,300.00 ,Edm.String,Aisa,Edm.String,Delhi,Edm.String,"1,346.76 ",Edm.String
+India,8,2021-11-18T23:22:49.578Z,46-55,Edm.String,Bajaj Allianz General Insurance Co. Ltd,Edm.String,No,Edm.String,280.00 ,Edm.String,Aisa,Edm.String,Delhi,Edm.String,"1,346.76 ",Edm.String
+India,9,2021-11-18T23:22:49.578Z,36-45,Edm.String,Bajaj Allianz General Insurance Co. Ltd,Edm.String,Yes,Edm.String,420.00 ,Edm.String,Aisa,Edm.String,Delhi,Edm.String,"2,693.52 ",Edm.String
